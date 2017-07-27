@@ -14,6 +14,7 @@ import { BreadcrumbsComponent } from './shared/breadcrumb.component';
 
 // Routing Module
 import { AppRoutingModule } from './app.routing';
+import { SimpleLayoutComponent } from './layouts/simple-layout.component';
 
 // Layouts
 import { FullLayoutComponent } from './layouts/full-layout.component';
@@ -29,6 +30,7 @@ import { FullLayoutComponent } from './layouts/full-layout.component';
   declarations: [
     AppComponent,
     FullLayoutComponent,
+    SimpleLayoutComponent,
     NAV_DROPDOWN_DIRECTIVES,
     BreadcrumbsComponent,
     SIDEBAR_TOGGLE_DIRECTIVES,
